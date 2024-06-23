@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/88f17612fa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <button class="nav-menu-btn">
+        <span>&#9776;</span>
+      </button>
+      <span>Contacts</span>
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-ellipsis-vertical"></i>
+    </nav>
+
+    <form>
+      <div class="input-container">
+        <label for="UserName"><i class="fa-solid fa-user"></i></label>
+        <input type="text" id="UserName" name="UserName" placeholder="Name" />
+      </div>
+      <div class="input-container">
+        <label for="PhoneNumber"><i class="fa-solid fa-phone"></i></label>
+        <input
+          type="number"
+          id="PhoneNumber"
+          name="PhoneNumber"
+          placeholder="Phone Number"
+        />
+        <select id="numberLabel" name="label">
+          <option value="" disabled selected hidden>Label</option>
+          <option value="option1">IDK</option>
+          <option value="option2">what</option>
+          <option value="option3">to put</option>
+          <option value="option4">Here</option>
+        </select>
+      </div>
+      <div class="input-container">
+        <label for="address"><i class="fa-solid fa-location-dot"></i></label>
+        <input type="text" id="address" name="address" placeholder="address" />
+      </div>
+      <div class="input-container">
+        <label for="address"><i></i></label>
+        <input type="text" id="address" name="City" placeholder="City" />
+      </div>
+      <div class="input-container">
+        <label for="address"><i></i></label>
+        <select id="stateSelect" name="state">
+          <option value="" disabled selected hidden>State</option>
+          <option value="option1">Michigan</option>
+          <option value="option2">Wisconsin</option>
+          <option value="option3">Minnesota</option>
+          <option value="option4">other</option>
+        </select>
+        <input type="number" id="address" name="zip" placeholder="zip" />
+      </div>
+      <div class="input-container">
+        <label for="email"><i class="fa-solid fa-envelope"></i></label>
+        <input type="email" id="email" name="email" placeholder="email" />
+      </div>
+      <div class="input-container">
+        <label for="birthday"><i class="fa-solid fa-envelope"></i></label>
+        <input
+          type="date"
+          id="birthday"
+          name="birthday"
+          placeholder="birthday"
+        />
+      </div>
+    </form>
+  </body>
+</html>
